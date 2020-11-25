@@ -7,5 +7,7 @@
 
 > 配合PicGo之类的软件时同样注意。
 
+******
 格式：`https://cdn.jsdelivr.net/gh/<username>/<repos>@<version>/<path>/<image.jpg>`
+
 例如：https://cdn.jsdelivr.net/gh/hwame/pics@master/avartar.jpg
