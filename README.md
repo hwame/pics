@@ -10,4 +10,4 @@
 ******
 格式：`https://cdn.jsdelivr.net/gh/<username>/<repos>@<version>/<path>/<image.jpg>`
 
-例如：https://cdn.jsdelivr.net/gh/hwame/pics@master/avartar.jpg
+例如：https://cdn.jsdelivr.net/gh/hwame/pics@main/avartar.jpg
