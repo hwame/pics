@@ -36,9 +36,10 @@ def get_all_links(site_url):
     site_url = site_url.rstrip("/")
     atom_xml = site_url + "/atom.xml"
     text = requests.get(atom_xml).text
-    urls = findall('href="(.*?)"', text)
+    urls1 = findall('href="(.*?)"', text)    # 文章
+    urls2 = findall('scheme="(.*?)"', text)  # 标签和分类
     # atom.xml文件也包括与站点无关的链接，故需排除urls中无关项
-    return list(filter(lambda item: site_url in item, set(urls)))
+    return list(filter(lambda item: site_url in item, set(urls1 + urls2)))
     
 
 def submit_to_baidu(articles, site, token):
