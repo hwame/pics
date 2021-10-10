@@ -1,0 +1,1111 @@
+[08:44:47] >>> deploy
+[08:44:47] :: Installing bootstrap/rootfs ... 
+[08:44:47] Checking installation path ... done
+[08:44:48] Making file system (ext4) ... done
+[08:44:48] Checking file system ... done
+[08:44:48] Mounting the container: 
+[08:44:48] / ... done
+[08:44:48] /proc ... done
+[08:44:48] /sys ... done
+[08:44:48] /dev ... done
+[08:44:48] /dev/shm ... done
+[08:44:48] /dev/pts ... done
+[08:44:48] :: Installing bootstrap/centos ... 
+[08:44:48] Preparing for deployment ... done
+[08:44:57] Retrieving packages list ... done
+[08:44:57] Retrieving packages: 
+[08:44:58] audit-libs ... done
+[08:44:58] basesystem ... done
+[08:44:59] bash ... done
+[08:44:59] bzip2-libs ... done
+[08:45:00] ca-certificates ... done
+[08:45:01] chkconfig ... done
+[08:45:02] coreutils ... done
+[08:45:03] cpio ... done
+[08:45:03] cracklib ... done
+[08:45:05] cracklib-dicts ... done
+[08:45:06] cryptsetup-libs ... done
+[08:45:06] curl ... done
+[08:45:07] cyrus-sasl-lib ... done
+[08:45:07] dbus ... done
+[08:45:08] dbus-libs ... done
+[08:45:08] diffutils ... done
+[08:45:09] elfutils-libelf ... done
+[08:45:10] elfutils-libs ... done
+[08:45:10] expat ... done
+[08:45:11] file-libs ... done
+[08:45:11] filesystem ... done
+[08:45:12] gawk ... done
+[08:45:13] gdbm ... done
+[08:45:14] glib2 ... done
+[08:45:16] glibc ... done
+[08:45:21] glibc-common ... done
+[08:45:22] gmp ... done
+[08:45:23] gnupg2 ... done
+[08:45:23] gpgme ... done
+[08:45:24] grep ... done
+[08:45:24] gzip ... done
+[08:45:25] info ... done
+[08:45:26] keyutils-libs ... done
+[08:45:26] kmod ... done
+[08:45:27] kmod-libs ... done
+[08:45:27] krb5-libs ... done
+[08:45:28] libacl ... done
+[08:45:28] libassuan ... done
+[08:45:29] libattr ... done
+[08:45:29] libblkid ... done
+[08:45:30] libcap ... done
+[08:45:30] libcap-ng ... done
+[08:45:31] libcom_err ... done
+[08:45:31] libcurl ... done
+[08:45:32] libdb ... done
+[08:45:33] libdb-utils ... done
+[08:45:33] libffi ... done
+[08:45:34] libgcc ... done
+[08:45:34] libgcrypt ... done
+[08:45:35] libgpg-error ... done
+[08:45:35] libidn ... done
+[08:45:36] libmount ... done
+[08:45:36] libpwquality ... done
+[08:45:37] libselinux ... done
+[08:45:37] libsemanage ... done
+[08:45:38] libsepol ... done
+[08:45:39] libssh2 ... done
+[08:45:39] libstdc++ ... done
+[08:45:40] libtasn1 ... done
+[08:45:40] libuuid ... done
+[08:45:41] libverto ... done
+[08:45:42] libxml2 ... done
+[08:45:42] lua ... done
+[08:45:43] lz4 ... done
+[08:45:43] ncurses ... done
+[08:45:44] ncurses-base ... done
+[08:45:45] ncurses-libs ... done
+[08:45:45] nspr ... done
+[08:45:46] nss ... done
+[08:45:47] nss-pem ... done
+[08:45:48] nss-softokn ... done
+[08:45:48] nss-softokn-freebl ... done
+[08:45:49] nss-sysinit ... done
+[08:45:49] nss-tools ... done
+[08:45:50] nss-util ... done
+[08:45:51] openldap ... done
+[08:45:51] openssl-libs ... done
+[08:45:52] p11-kit ... done
+[08:45:53] p11-kit-trust ... done
+[08:45:53] pam ... done
+[08:45:54] pcre ... done
+[08:45:55] pinentry ... done
+[08:45:55] pkgconfig ... done
+[08:45:55] popt ... done
+[08:45:56] pth ... done
+[08:45:57] pygpgme ... done
+[08:45:57] pyliblzma ... done
+[08:45:57] python ... done
+[08:45:58] python-iniparse ... done
+[08:46:01] python-libs ... done
+[08:46:01] python-pycurl ... done
+[08:46:02] python-urlgrabber ... done
+[08:46:02] pyxattr ... done
+[08:46:03] qrencode-libs ... done
+[08:46:03] readline ... done
+[08:46:04] rootfiles ... done
+[08:46:05] rpm ... done
+[08:46:05] rpm-build-libs ... done
+[08:46:06] rpm-libs ... done
+[08:46:06] rpm-python ... done
+[08:46:07] sed ... done
+[08:46:08] setup ... done
+[08:46:09] shadow-utils ... done
+[08:46:09] shared-mime-info ... done
+[08:46:10] sqlite ... done
+[08:46:11] sudo ... done
+[08:46:13] systemd ... done
+[08:46:14] systemd-libs ... done
+[08:46:15] tzdata ... done
+[08:46:16] ustr ... done
+[08:46:17] util-linux ... done
+[08:46:17] vim-minimal ... done
+[08:46:18] which ... done
+[08:46:18] xz-libs ... done
+[08:46:20] yum ... done
+[08:46:20] yum-metadata-parser ... done
+[08:46:20] yum-plugin-fastestmirror ... done
+[08:46:21] yum-utils ... done
+[08:46:21] zlib ... done
+[08:46:21] Installing packages ... 
+[08:47:09] Clearing cache ... done
+[08:47:09] :: Configuring core/mnt ... 
+[08:47:09] :: Configuring core/net ... 
+[08:47:10] Updating repository ... done
+[08:47:10] Installing minimal environment: 
+[08:47:10] Loaded plugins: fastestmirror
+[08:47:10] Determining fastest mirrors
+[08:47:16] Resolving Dependencies
+[08:47:16] --> Running transaction check
+[08:47:16] ---> Package NetworkManager.aarch64 1:1.18.8-1.el7 will be installed
+[08:47:17] --> Processing Dependency: NetworkManager-libnm(aarch-64) = 1:1.18.8-1.el7 for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: wpa_supplicant >= 1:1.1 for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_8_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_6_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_4_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_2_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_18_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_16_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_14_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_12_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_10_2)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_10_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0(libnm_1_0_0)(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libpolkit-gobject-1.so.0()(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libpolkit-agent-1.so.0()(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnm.so.0()(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libndp.so.0()(64bit) for package: 1:NetworkManager-1.18.8-1.el7.aarch64
+[08:47:18] ---> Package NetworkManager-team.aarch64 1:1.18.8-1.el7 will be installed
+[08:47:18] --> Processing Dependency: libteamdctl.so.0()(64bit) for package: 1:NetworkManager-team-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libjansson.so.4()(64bit) for package: 1:NetworkManager-team-1.18.8-1.el7.aarch64
+[08:47:18] ---> Package NetworkManager-tui.aarch64 1:1.18.8-1.el7 will be installed
+[08:47:18] --> Processing Dependency: libnewt.so.0.52(NEWT_0.52.9)(64bit) for package: 1:NetworkManager-tui-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnewt.so.0.52(NEWT_0.52.6)(64bit) for package: 1:NetworkManager-tui-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnewt.so.0.52(NEWT_0.52.13)(64bit) for package: 1:NetworkManager-tui-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnewt.so.0.52(NEWT_0.52)(64bit) for package: 1:NetworkManager-tui-1.18.8-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libnewt.so.0.52()(64bit) for package: 1:NetworkManager-tui-1.18.8-1.el7.aarch64
+[08:47:18] ---> Package aic94xx-firmware.noarch 0:30-6.el7 will be installed
+[08:47:18] ---> Package alsa-firmware.noarch 0:1.0.28-2.el7 will be installed
+[08:47:18] --> Processing Dependency: alsa-tools-firmware >= 1.0.27 for package: alsa-firmware-1.0.28-2.el7.noarch
+[08:47:18] ---> Package audit.aarch64 0:2.8.5-4.el7 will be installed
+[08:47:18] --> Processing Dependency: systemd-sysv for package: audit-2.8.5-4.el7.aarch64
+[08:47:18] --> Processing Dependency: libwrap.so.0()(64bit) for package: audit-2.8.5-4.el7.aarch64
+[08:47:18] ---> Package btrfs-progs.aarch64 0:4.9.1-1.el7 will be installed
+[08:47:18] --> Processing Dependency: liblzo2.so.2()(64bit) for package: btrfs-progs-4.9.1-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libext2fs.so.2()(64bit) for package: btrfs-progs-4.9.1-1.el7.aarch64
+[08:47:18] ---> Package cronie.aarch64 0:1.4.11-23.el7 will be installed
+[08:47:18] --> Processing Dependency: dailyjobs for package: cronie-1.4.11-23.el7.aarch64
+[08:47:18] ---> Package dhclient.aarch64 12:4.2.5-82.el7.centos will be installed
+[08:47:18] --> Processing Dependency: dhcp-libs(aarch-64) = 12:4.2.5-82.el7.centos for package: 12:dhclient-4.2.5-82.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: dhcp-common = 12:4.2.5-82.el7.centos for package: 12:dhclient-4.2.5-82.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: libomapi.so.0()(64bit) for package: 12:dhclient-4.2.5-82.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: libisc-export.so.169()(64bit) for package: 12:dhclient-4.2.5-82.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: libdns-export.so.1102()(64bit) for package: 12:dhclient-4.2.5-82.el7.centos.aarch64
+[08:47:18] ---> Package dracut-config-rescue.aarch64 0:033-572.el7 will be installed
+[08:47:18] --> Processing Dependency: dracut = 033-572.el7 for package: dracut-config-rescue-033-572.el7.aarch64
+[08:47:18] ---> Package e2fsprogs.aarch64 0:1.42.9-19.el7 will be installed
+[08:47:18] --> Processing Dependency: libss = 1.42.9-19.el7 for package: e2fsprogs-1.42.9-19.el7.aarch64
+[08:47:18] --> Processing Dependency: libss.so.2()(64bit) for package: e2fsprogs-1.42.9-19.el7.aarch64
+[08:47:18] ---> Package firewalld.noarch 0:0.6.3-11.el7 will be installed
+[08:47:18] --> Processing Dependency: python-firewall = 0.6.3-11.el7 for package: firewalld-0.6.3-11.el7.noarch
+[08:47:18] --> Processing Dependency: firewalld-filesystem = 0.6.3-11.el7 for package: firewalld-0.6.3-11.el7.noarch
+[08:47:18] --> Processing Dependency: ipset for package: firewalld-0.6.3-11.el7.noarch
+[08:47:18] --> Processing Dependency: ebtables for package: firewalld-0.6.3-11.el7.noarch
+[08:47:18] ---> Package hostname.aarch64 0:3.13-3.el7_7.1 will be installed
+[08:47:18] ---> Package initscripts.aarch64 0:9.49.53-1.el7 will be installed
+[08:47:18] --> Processing Dependency: sysvinit-tools >= 2.87-5 for package: initscripts-9.49.53-1.el7.aarch64
+[08:47:18] --> Processing Dependency: redhat-release for package: initscripts-9.49.53-1.el7.aarch64
+[08:47:18] --> Processing Dependency: findutils for package: initscripts-9.49.53-1.el7.aarch64
+[08:47:18] --> Processing Dependency: bc for package: initscripts-9.49.53-1.el7.aarch64
+[08:47:18] ---> Package iproute.aarch64 0:4.11.0-30.el7 will be installed
+[08:47:18] --> Processing Dependency: libmnl.so.0(LIBMNL_1.0)(64bit) for package: iproute-4.11.0-30.el7.aarch64
+[08:47:18] --> Processing Dependency: libmnl.so.0()(64bit) for package: iproute-4.11.0-30.el7.aarch64
+[08:47:18] ---> Package iprutils.aarch64 0:2.4.17.1-3.el7_7 will be installed
+[08:47:18] --> Processing Dependency: lsscsi for package: iprutils-2.4.17.1-3.el7_7.aarch64
+[08:47:18] ---> Package iptables.aarch64 0:1.4.21-35.el7 will be installed
+[08:47:18] --> Processing Dependency: libnfnetlink.so.0()(64bit) for package: iptables-1.4.21-35.el7.aarch64
+[08:47:18] --> Processing Dependency: libnetfilter_conntrack.so.3()(64bit) for package: iptables-1.4.21-35.el7.aarch64
+[08:47:18] ---> Package iputils.aarch64 0:20160308-10.el7 will be installed
+[08:47:18] ---> Package irqbalance.aarch64 3:1.0.7-12.el7 will be installed
+[08:47:18] --> Processing Dependency: numactl-libs for package: 3:irqbalance-1.0.7-12.el7.aarch64
+[08:47:18] --> Processing Dependency: libnuma.so.1(libnuma_1.1)(64bit) for package: 3:irqbalance-1.0.7-12.el7.aarch64
+[08:47:18] --> Processing Dependency: libnuma.so.1()(64bit) for package: 3:irqbalance-1.0.7-12.el7.aarch64
+[08:47:18] ---> Package ivtv-firmware.noarch 2:20080701-26.el7 will be installed
+[08:47:18] ---> Package iwl100-firmware.noarch 0:39.31.5.1-79.el7 will be installed
+[08:47:18] ---> Package iwl1000-firmware.noarch 1:39.31.5.1-79.el7 will be installed
+[08:47:18] ---> Package iwl105-firmware.noarch 0:18.168.6.1-79.el7 will be installed
+[08:47:18] ---> Package iwl135-firmware.noarch 0:18.168.6.1-79.el7 will be installed
+[08:47:18] ---> Package iwl2000-firmware.noarch 0:18.168.6.1-79.el7 will be installed
+[08:47:18] ---> Package iwl2030-firmware.noarch 0:18.168.6.1-79.el7 will be installed
+[08:47:18] ---> Package iwl3160-firmware.noarch 0:25.30.13.0-79.el7 will be installed
+[08:47:18] ---> Package iwl3945-firmware.noarch 0:15.32.2.9-79.el7 will be installed
+[08:47:18] ---> Package iwl4965-firmware.noarch 0:228.61.2.24-79.el7 will be installed
+[08:47:18] ---> Package iwl5000-firmware.noarch 0:8.83.5.1_1-79.el7 will be installed
+[08:47:18] ---> Package iwl5150-firmware.noarch 0:8.24.2.2-79.el7 will be installed
+[08:47:18] ---> Package iwl6000-firmware.noarch 0:9.221.4.1-79.el7 will be installed
+[08:47:18] ---> Package iwl6000g2a-firmware.noarch 0:18.168.6.1-79.el7 will be installed
+[08:47:18] ---> Package iwl6000g2b-firmware.noarch 0:18.168.6.1-79.el7 will be installed
+[08:47:18] ---> Package iwl6050-firmware.noarch 0:41.28.5.1-79.el7 will be installed
+[08:47:18] ---> Package iwl7260-firmware.noarch 0:25.30.13.0-79.el7 will be installed
+[08:47:18] ---> Package kbd.aarch64 0:1.15.5-15.el7 will be installed
+[08:47:18] --> Processing Dependency: kbd-misc = 1.15.5-15.el7 for package: kbd-1.15.5-15.el7.aarch64
+[08:47:18] --> Processing Dependency: kbd-legacy = 1.15.5-15.el7 for package: kbd-1.15.5-15.el7.aarch64
+[08:47:18] ---> Package kernel-tools.aarch64 0:4.18.0-193.28.1.el7 will be installed
+[08:47:18] --> Processing Dependency: kernel-tools-libs = 4.18.0-193.28.1.el7 for package: kernel-tools-4.18.0-193.28.1.el7.aarch64
+[08:47:18] --> Processing Dependency: libpci.so.3()(64bit) for package: kernel-tools-4.18.0-193.28.1.el7.aarch64
+[08:47:18] --> Processing Dependency: libcpupower.so.0()(64bit) for package: kernel-tools-4.18.0-193.28.1.el7.aarch64
+[08:47:18] ---> Package kexec-tools.aarch64 0:2.0.15-51.el7 will be installed
+[08:47:18] --> Processing Dependency: dracut-network >= 033-552 for package: kexec-tools-2.0.15-51.el7.aarch64
+[08:47:18] --> Processing Dependency: ethtool for package: kexec-tools-2.0.15-51.el7.aarch64
+[08:47:18] --> Processing Dependency: libsnappy.so.1()(64bit) for package: kexec-tools-2.0.15-51.el7.aarch64
+[08:47:18] ---> Package less.aarch64 0:458-9.el7 will be installed
+[08:47:18] --> Processing Dependency: groff-base for package: less-458-9.el7.aarch64
+[08:47:18] ---> Package libsysfs.aarch64 0:2.1.0-16.el7 will be installed
+[08:47:18] ---> Package lshw.aarch64 0:B.02.18-17.el7 will be installed
+[08:47:18] --> Processing Dependency: hwdata for package: lshw-B.02.18-17.el7.aarch64
+[08:47:18] ---> Package man-db.aarch64 0:2.6.3-11.el7 will be installed
+[08:47:18] --> Processing Dependency: libpipeline.so.1()(64bit) for package: man-db-2.6.3-11.el7.aarch64
+[08:47:18] ---> Package openssh-clients.aarch64 0:7.4p1-21.el7 will be installed
+[08:47:18] --> Processing Dependency: openssh = 7.4p1-21.el7 for package: openssh-clients-7.4p1-21.el7.aarch64
+[08:47:18] --> Processing Dependency: fipscheck-lib(aarch-64) >= 1.3.0 for package: openssh-clients-7.4p1-21.el7.aarch64
+[08:47:18] --> Processing Dependency: libfipscheck.so.1()(64bit) for package: openssh-clients-7.4p1-21.el7.aarch64
+[08:47:18] --> Processing Dependency: libedit.so.0()(64bit) for package: openssh-clients-7.4p1-21.el7.aarch64
+[08:47:18] ---> Package parted.aarch64 0:3.1-32.el7 will be installed
+[08:47:18] --> Processing Dependency: libdevmapper.so.1.02(Base)(64bit) for package: parted-3.1-32.el7.aarch64
+[08:47:18] --> Processing Dependency: libdevmapper.so.1.02()(64bit) for package: parted-3.1-32.el7.aarch64
+[08:47:18] ---> Package passwd.aarch64 0:0.79-6.el7 will be installed
+[08:47:18] --> Processing Dependency: libuser.so.1()(64bit) for package: passwd-0.79-6.el7.aarch64
+[08:47:18] ---> Package plymouth.aarch64 0:0.8.9-0.34.20140113.el7.centos will be installed
+[08:47:18] --> Processing Dependency: plymouth-core-libs = 0.8.9-0.34.20140113.el7.centos for package: plymouth-0.8.9-0.34.20140113.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: system-logos for package: plymouth-0.8.9-0.34.20140113.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: plymouth-scripts for package: plymouth-0.8.9-0.34.20140113.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: libply.so.2()(64bit) for package: plymouth-0.8.9-0.34.20140113.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: libply-splash-core.so.2()(64bit) for package: plymouth-0.8.9-0.34.20140113.el7.centos.aarch64
+[08:47:18] --> Processing Dependency: libdrm.so.2()(64bit) for package: plymouth-0.8.9-0.34.20140113.el7.centos.aarch64
+[08:47:18] ---> Package policycoreutils.aarch64 0:2.5-34.el7 will be installed
+[08:47:18] --> Processing Dependency: libselinux-utils >= 2.5-14 for package: policycoreutils-2.5-34.el7.aarch64
+[08:47:18] ---> Package postfix.aarch64 2:2.10.1-9.el7 will be installed
+[08:47:18] --> Processing Dependency: libmysqlclient.so.18(libmysqlclient_18)(64bit) for package: 2:postfix-2.10.1-9.el7.aarch64
+[08:47:18] --> Processing Dependency: libmysqlclient.so.18()(64bit) for package: 2:postfix-2.10.1-9.el7.aarch64
+[08:47:18] ---> Package procps-ng.aarch64 0:3.3.10-28.el7 will be installed
+[08:47:18] ---> Package rsyslog.aarch64 0:8.24.0-55.el7 will be installed
+[08:47:18] --> Processing Dependency: logrotate >= 3.5.2 for package: rsyslog-8.24.0-55.el7.aarch64
+[08:47:18] --> Processing Dependency: libestr >= 0.1.9 for package: rsyslog-8.24.0-55.el7.aarch64
+[08:47:18] --> Processing Dependency: libfastjson.so.4()(64bit) for package: rsyslog-8.24.0-55.el7.aarch64
+[08:47:18] --> Processing Dependency: libestr.so.0()(64bit) for package: rsyslog-8.24.0-55.el7.aarch64
+[08:47:18] ---> Package selinux-policy-targeted.noarch 0:3.13.1-268.el7 will be installed
+[08:47:18] --> Processing Dependency: selinux-policy = 3.13.1-268.el7 for package: selinux-policy-targeted-3.13.1-268.el7.noarch
+[08:47:18] --> Processing Dependency: selinux-policy = 3.13.1-268.el7 for package: selinux-policy-targeted-3.13.1-268.el7.noarch
+[08:47:18] ---> Package sg3_utils.aarch64 1:1.37-19.el7 will be installed
+[08:47:18] ---> Package sg3_utils-libs.aarch64 1:1.37-19.el7 will be installed
+[08:47:18] ---> Package tar.aarch64 2:1.26-35.el7 will be installed
+[08:47:18] ---> Package tuned.noarch 0:2.11.0-9.el7 will be installed
+[08:47:18] --> Processing Dependency: virt-what for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: virt-what for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: python-schedutils for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: python-pyudev for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: python-perf for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: python-linux-procfs for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: python-decorator for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: python-configobj for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: pygobject3-base for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] --> Processing Dependency: dbus-python for package: tuned-2.11.0-9.el7.noarch
+[08:47:18] ---> Package xfsprogs.aarch64 0:4.5.0-22.el7 will be installed
+[08:47:18] --> Running transaction check
+[08:47:18] ---> Package NetworkManager-libnm.aarch64 1:1.18.8-1.el7 will be installed
+[08:47:18] ---> Package alsa-tools-firmware.aarch64 0:1.1.0-1.el7 will be installed
+[08:47:18] --> Processing Dependency: libasound.so.2(ALSA_0.9)(64bit) for package: alsa-tools-firmware-1.1.0-1.el7.aarch64
+[08:47:18] --> Processing Dependency: fxload for package: alsa-tools-firmware-1.1.0-1.el7.aarch64
+[08:47:18] --> Processing Dependency: libasound.so.2()(64bit) for package: alsa-tools-firmware-1.1.0-1.el7.aarch64
+[08:47:18] ---> Package bc.aarch64 0:1.06.95-13.el7 will be installed
+[08:47:18] ---> Package bind-export-libs.aarch64 32:9.11.4-26.P2.el7 will be installed
+[08:47:18] ---> Package centos-logos.noarch 0:70.0.6-3.el7.centos will be installed
+[08:47:18] ---> Package centos-release.aarch64 0:7-9.2009.0.el7.centos will be installed
+[08:47:18] ---> Package cronie-anacron.aarch64 0:1.4.11-23.el7 will be installed
+[08:47:18] --> Processing Dependency: crontabs for package: cronie-anacron-1.4.11-23.el7.aarch64
+[08:47:18] ---> Package dbus-python.aarch64 0:1.1.1-9.el7 will be installed
+[08:47:18] --> Processing Dependency: libdbus-glib-1.so.2()(64bit) for package: dbus-python-1.1.1-9.el7.aarch64
+[08:47:18] ---> Package device-mapper-libs.aarch64 7:1.02.170-6.el7 will be installed
+[08:47:18] --> Processing Dependency: device-mapper = 7:1.02.170-6.el7 for package: 7:device-mapper-libs-1.02.170-6.el7.aarch64
+[08:47:18] ---> Package dhcp-common.aarch64 12:4.2.5-82.el7.centos will be installed
+[08:47:18] ---> Package dhcp-libs.aarch64 12:4.2.5-82.el7.centos will be installed
+[08:47:18] ---> Package dracut.aarch64 0:033-572.el7 will be installed
+[08:47:18] --> Processing Dependency: xz for package: dracut-033-572.el7.aarch64
+[08:47:19] --> Processing Dependency: kpartx for package: dracut-033-572.el7.aarch64
+[08:47:19] --> Processing Dependency: hardlink for package: dracut-033-572.el7.aarch64
+[08:47:19] ---> Package dracut-network.aarch64 0:033-572.el7 will be installed
+[08:47:19] ---> Package e2fsprogs-libs.aarch64 0:1.42.9-19.el7 will be installed
+[08:47:19] ---> Package ebtables.aarch64 0:2.0.10-16.el7 will be installed
+[08:47:19] ---> Package ethtool.aarch64 2:4.8-10.el7 will be installed
+[08:47:19] ---> Package findutils.aarch64 1:4.5.11-6.el7 will be installed
+[08:47:19] ---> Package fipscheck-lib.aarch64 0:1.4.1-6.el7 will be installed
+[08:47:19] --> Processing Dependency: /usr/bin/fipscheck for package: fipscheck-lib-1.4.1-6.el7.aarch64
+[08:47:19] ---> Package firewalld-filesystem.noarch 0:0.6.3-11.el7 will be installed
+[08:47:19] ---> Package groff-base.aarch64 0:1.22.2-8.el7 will be installed
+[08:47:19] ---> Package hwdata.aarch64 0:0.252-9.7.el7 will be installed
+[08:47:19] ---> Package ipset.aarch64 0:7.1-1.el7 will be installed
+[08:47:19] --> Processing Dependency: ipset-libs(aarch-64) = 7.1-1.el7 for package: ipset-7.1-1.el7.aarch64
+[08:47:19] --> Processing Dependency: libipset.so.13(LIBIPSET_4.8)(64bit) for package: ipset-7.1-1.el7.aarch64
+[08:47:19] --> Processing Dependency: libipset.so.13(LIBIPSET_2.0)(64bit) for package: ipset-7.1-1.el7.aarch64
+[08:47:19] --> Processing Dependency: libipset.so.13()(64bit) for package: ipset-7.1-1.el7.aarch64
+[08:47:19] ---> Package jansson.aarch64 0:2.10-1.el7 will be installed
+[08:47:19] ---> Package kbd-legacy.noarch 0:1.15.5-15.el7 will be installed
+[08:47:19] ---> Package kbd-misc.noarch 0:1.15.5-15.el7 will be installed
+[08:47:19] ---> Package kernel-tools-libs.aarch64 0:4.18.0-193.28.1.el7 will be installed
+[08:47:19] ---> Package libdrm.aarch64 0:2.4.97-2.el7 will be installed
+[08:47:19] ---> Package libedit.aarch64 0:3.0-12.20121213cvs.el7 will be installed
+[08:47:19] ---> Package libestr.aarch64 0:0.1.9-2.el7 will be installed
+[08:47:19] ---> Package libfastjson.aarch64 0:0.99.4-3.el7 will be installed
+[08:47:19] ---> Package libmnl.aarch64 0:1.0.3-7.el7 will be installed
+[08:47:19] ---> Package libndp.aarch64 0:1.2-9.el7 will be installed
+[08:47:19] ---> Package libnetfilter_conntrack.aarch64 0:1.0.6-1.el7_3 will be installed
+[08:47:19] ---> Package libnfnetlink.aarch64 0:1.0.1-4.el7 will be installed
+[08:47:19] ---> Package libpipeline.aarch64 0:1.2.3-3.el7 will be installed
+[08:47:19] ---> Package libselinux-utils.aarch64 0:2.5-15.el7 will be installed
+[08:47:19] ---> Package libss.aarch64 0:1.42.9-19.el7 will be installed
+[08:47:19] ---> Package libuser.aarch64 0:0.60-9.el7 will be installed
+[08:47:19] ---> Package logrotate.aarch64 0:3.8.6-19.el7 will be installed
+[08:47:19] ---> Package lsscsi.aarch64 0:0.27-6.el7 will be installed
+[08:47:19] ---> Package lzo.aarch64 0:2.06-8.el7 will be installed
+[08:47:19] ---> Package mariadb-libs.aarch64 1:5.5.68-1.el7 will be installed
+[08:47:19] ---> Package newt.aarch64 0:0.52.15-4.el7 will be installed
+[08:47:19] --> Processing Dependency: libslang.so.2(SLANG2)(64bit) for package: newt-0.52.15-4.el7.aarch64
+[08:47:19] --> Processing Dependency: libslang.so.2()(64bit) for package: newt-0.52.15-4.el7.aarch64
+[08:47:19] ---> Package numactl-libs.aarch64 0:2.0.12-5.el7 will be installed
+[08:47:19] ---> Package openssh.aarch64 0:7.4p1-21.el7 will be installed
+[08:47:19] ---> Package pciutils-libs.aarch64 0:3.5.1-3.el7 will be installed
+[08:47:19] ---> Package plymouth-core-libs.aarch64 0:0.8.9-0.34.20140113.el7.centos will be installed
+[08:47:19] ---> Package plymouth-scripts.aarch64 0:0.8.9-0.34.20140113.el7.centos will be installed
+[08:47:19] ---> Package polkit.aarch64 0:0.112-26.el7 will be installed
+[08:47:19] --> Processing Dependency: polkit-pkla-compat for package: polkit-0.112-26.el7.aarch64
+[08:47:19] --> Processing Dependency: libmozjs-17.0.so(mozjs_17.0)(64bit) for package: polkit-0.112-26.el7.aarch64
+[08:47:19] --> Processing Dependency: libmozjs-17.0.so()(64bit) for package: polkit-0.112-26.el7.aarch64
+[08:47:19] ---> Package python-configobj.noarch 0:4.7.2-7.el7 will be installed
+[08:47:19] ---> Package python-decorator.noarch 0:3.4.0-3.el7 will be installed
+[08:47:19] ---> Package python-firewall.noarch 0:0.6.3-11.el7 will be installed
+[08:47:19] --> Processing Dependency: python-slip-dbus for package: python-firewall-0.6.3-11.el7.noarch
+[08:47:19] ---> Package python-gobject-base.aarch64 0:3.22.0-1.el7_4.1 will be installed
+[08:47:19] --> Processing Dependency: gobject-introspection(aarch-64) >= 1.46.0 for package: python-gobject-base-3.22.0-1.el7_4.1.aarch64
+[08:47:19] --> Processing Dependency: libgirepository-1.0.so.1()(64bit) for package: python-gobject-base-3.22.0-1.el7_4.1.aarch64
+[08:47:19] ---> Package python-linux-procfs.noarch 0:0.4.11-4.el7 will be installed
+[08:47:19] ---> Package python-perf.aarch64 0:4.18.0-193.28.1.el7 will be installed
+[08:47:19] ---> Package python-pyudev.noarch 0:0.15-9.el7 will be installed
+[08:47:19] ---> Package python-schedutils.aarch64 0:0.4-6.el7 will be installed
+[08:47:19] ---> Package selinux-policy.noarch 0:3.13.1-268.el7 will be installed
+[08:47:19] ---> Package snappy.aarch64 0:1.1.0-3.el7 will be installed
+[08:47:19] ---> Package systemd-sysv.aarch64 0:219-78.el7 will be installed
+[08:47:19] ---> Package sysvinit-tools.aarch64 0:2.88-14.dsf.el7 will be installed
+[08:47:19] ---> Package tcp_wrappers-libs.aarch64 0:7.6-77.el7 will be installed
+[08:47:19] ---> Package teamd.aarch64 0:1.29-3.el7 will be installed
+[08:47:19] --> Processing Dependency: libteam = 1.29-3.el7 for package: teamd-1.29-3.el7.aarch64
+[08:47:19] --> Processing Dependency: libteam.so.5()(64bit) for package: teamd-1.29-3.el7.aarch64
+[08:47:19] --> Processing Dependency: libnl-route-3.so.200()(64bit) for package: teamd-1.29-3.el7.aarch64
+[08:47:19] --> Processing Dependency: libnl-nf-3.so.200()(64bit) for package: teamd-1.29-3.el7.aarch64
+[08:47:19] --> Processing Dependency: libnl-genl-3.so.200()(64bit) for package: teamd-1.29-3.el7.aarch64
+[08:47:19] --> Processing Dependency: libnl-cli-3.so.200()(64bit) for package: teamd-1.29-3.el7.aarch64
+[08:47:19] --> Processing Dependency: libnl-3.so.200()(64bit) for package: teamd-1.29-3.el7.aarch64
+[08:47:19] --> Processing Dependency: libdaemon.so.0()(64bit) for package: teamd-1.29-3.el7.aarch64
+[08:47:19] ---> Package virt-what.aarch64 0:1.18-4.el7 will be installed
+[08:47:19] --> Processing Dependency: dmidecode for package: virt-what-1.18-4.el7.aarch64
+[08:47:19] ---> Package wpa_supplicant.aarch64 1:2.6-12.el7 will be installed
+[08:47:19] --> Running transaction check
+[08:47:19] ---> Package alsa-lib.aarch64 0:1.1.8-1.el7 will be installed
+[08:47:19] ---> Package crontabs.noarch 0:1.11-6.20121102git.el7 will be installed
+[08:47:19] ---> Package dbus-glib.aarch64 0:0.100-7.el7 will be installed
+[08:47:19] ---> Package device-mapper.aarch64 7:1.02.170-6.el7 will be installed
+[08:47:19] ---> Package dmidecode.aarch64 1:3.2-5.el7 will be installed
+[08:47:19] ---> Package fipscheck.aarch64 0:1.4.1-6.el7 will be installed
+[08:47:19] ---> Package fxload.aarch64 0:2002_04_11-16.el7 will be installed
+[08:47:19] ---> Package gobject-introspection.aarch64 0:1.56.1-1.el7 will be installed
+[08:47:19] ---> Package hardlink.aarch64 1:1.0-19.el7 will be installed
+[08:47:19] ---> Package ipset-libs.aarch64 0:7.1-1.el7 will be installed
+[08:47:19] ---> Package kpartx.aarch64 0:0.4.9-133.el7 will be installed
+[08:47:19] ---> Package libdaemon.aarch64 0:0.14-7.el7 will be installed
+[08:47:19] ---> Package libnl3.aarch64 0:3.2.28-4.el7 will be installed
+[08:47:19] ---> Package libnl3-cli.aarch64 0:3.2.28-4.el7 will be installed
+[08:47:19] ---> Package libteam.aarch64 0:1.29-3.el7 will be installed
+[08:47:19] ---> Package mozjs17.aarch64 0:17.0.0-20.el7 will be installed
+[08:47:19] ---> Package polkit-pkla-compat.aarch64 0:0.1-4.el7 will be installed
+[08:47:19] ---> Package python-slip-dbus.noarch 0:0.4.0-4.el7 will be installed
+[08:47:19] --> Processing Dependency: python-slip = 0.4.0-4.el7 for package: python-slip-dbus-0.4.0-4.el7.noarch
+[08:47:19] ---> Package slang.aarch64 0:2.2.4-11.el7 will be installed
+[08:47:19] ---> Package xz.aarch64 0:5.2.2-1.el7 will be installed
+[08:47:19] --> Running transaction check
+[08:47:19] ---> Package python-slip.noarch 0:0.4.0-4.el7 will be installed
+[08:47:19] --> Processing Dependency: libselinux-python for package: python-slip-0.4.0-4.el7.noarch
+[08:47:19] --> Running transaction check
+[08:47:19] ---> Package libselinux-python.aarch64 0:2.5-15.el7 will be installed
+[08:47:19] --> Finished Dependency Resolution
+[08:47:20] 
+[08:47:20] Dependencies Resolved
+[08:47:20] 
+[08:47:20] ================================================================================
+[08:47:20]  Package                 Arch    Version                 Repository        Size
+[08:47:20] ================================================================================
+[08:47:20] Installing for group install "Core":
+[08:47:20]  NetworkManager          aarch64 1:1.18.8-1.el7          centos-7-aarch64 1.7 M
+[08:47:20]  NetworkManager-team     aarch64 1:1.18.8-1.el7          centos-7-aarch64 163 k
+[08:47:20]  NetworkManager-tui      aarch64 1:1.18.8-1.el7          centos-7-aarch64 321 k
+[08:47:20]  aic94xx-firmware        noarch  30-6.el7                centos-7-aarch64  23 k
+[08:47:20]  alsa-firmware           noarch  1.0.28-2.el7            centos-7-aarch64 2.3 M
+[08:47:20]  audit                   aarch64 2.8.5-4.el7             centos-7-aarch64 249 k
+[08:47:20]  btrfs-progs             aarch64 4.9.1-1.el7             centos-7-aarch64 667 k
+[08:47:20]  cronie                  aarch64 1.4.11-23.el7           centos-7-aarch64  91 k
+[08:47:20]  dhclient                aarch64 12:4.2.5-82.el7.centos  centos-7-aarch64 273 k
+[08:47:20]  dracut-config-rescue    aarch64 033-572.el7             centos-7-aarch64  60 k
+[08:47:20]  e2fsprogs               aarch64 1.42.9-19.el7           centos-7-aarch64 698 k
+[08:47:20]  firewalld               noarch  0.6.3-11.el7            centos-7-aarch64 448 k
+[08:47:20]  hostname                aarch64 3.13-3.el7_7.1          centos-7-aarch64  17 k
+[08:47:20]  initscripts             aarch64 9.49.53-1.el7           centos-7-aarch64 440 k
+[08:47:20]  iproute                 aarch64 4.11.0-30.el7           centos-7-aarch64 801 k
+[08:47:20]  iprutils                aarch64 2.4.17.1-3.el7_7        centos-7-aarch64 237 k
+[08:47:20]  iptables                aarch64 1.4.21-35.el7           centos-7-aarch64 439 k
+[08:47:20]  iputils                 aarch64 20160308-10.el7         centos-7-aarch64 149 k
+[08:47:20]  irqbalance              aarch64 3:1.0.7-12.el7          centos-7-aarch64  47 k
+[08:47:20]  ivtv-firmware           noarch  2:20080701-26.el7       centos-7-aarch64 106 k
+[08:47:20]  iwl100-firmware         noarch  39.31.5.1-79.el7        centos-7-aarch64 155 k
+[08:47:20]  iwl1000-firmware        noarch  1:39.31.5.1-79.el7      centos-7-aarch64 214 k
+[08:47:20]  iwl105-firmware         noarch  18.168.6.1-79.el7       centos-7-aarch64 234 k
+[08:47:20]  iwl135-firmware         noarch  18.168.6.1-79.el7       centos-7-aarch64 243 k
+[08:47:20]  iwl2000-firmware        noarch  18.168.6.1-79.el7       centos-7-aarch64 237 k
+[08:47:20]  iwl2030-firmware        noarch  18.168.6.1-79.el7       centos-7-aarch64 245 k
+[08:47:20]  iwl3160-firmware        noarch  25.30.13.0-79.el7       centos-7-aarch64 1.5 M
+[08:47:20]  iwl3945-firmware        noarch  15.32.2.9-79.el7        centos-7-aarch64  96 k
+[08:47:20]  iwl4965-firmware        noarch  228.61.2.24-79.el7      centos-7-aarch64 109 k
+[08:47:20]  iwl5000-firmware        noarch  8.83.5.1_1-79.el7       centos-7-aarch64 289 k
+[08:47:20]  iwl5150-firmware        noarch  8.24.2.2-79.el7         centos-7-aarch64 152 k
+[08:47:20]  iwl6000-firmware        noarch  9.221.4.1-79.el7        centos-7-aarch64 171 k
+[08:47:20]  iwl6000g2a-firmware     noarch  18.168.6.1-79.el7       centos-7-aarch64 304 k
+[08:47:20]  iwl6000g2b-firmware     noarch  18.168.6.1-79.el7       centos-7-aarch64 305 k
+[08:47:20]  iwl6050-firmware        noarch  41.28.5.1-79.el7        centos-7-aarch64 241 k
+[08:47:20]  iwl7260-firmware        noarch  25.30.13.0-79.el7       centos-7-aarch64 6.1 M
+[08:47:20]  kbd                     aarch64 1.15.5-15.el7           centos-7-aarch64 347 k
+[08:47:20]  kernel-tools            aarch64 4.18.0-193.28.1.el7     centos-7-aarch64 2.8 M
+[08:47:20]  kexec-tools             aarch64 2.0.15-51.el7           centos-7-aarch64 314 k
+[08:47:20]  less                    aarch64 458-9.el7               centos-7-aarch64 115 k
+[08:47:20]  libsysfs                aarch64 2.1.0-16.el7            centos-7-aarch64  45 k
+[08:47:20]  lshw                    aarch64 B.02.18-17.el7          centos-7-aarch64 312 k
+[08:47:20]  man-db                  aarch64 2.6.3-11.el7            centos-7-aarch64 826 k
+[08:47:20]  openssh-clients         aarch64 7.4p1-21.el7            centos-7-aarch64 610 k
+[08:47:20]  parted                  aarch64 3.1-32.el7              centos-7-aarch64 596 k
+[08:47:20]  passwd                  aarch64 0.79-6.el7              centos-7-aarch64 105 k
+[08:47:20]  plymouth                aarch64 0.8.9-0.34.20140113.el7.centos
+[08:47:20]                                                          centos-7-aarch64 111 k
+[08:47:20]  policycoreutils         aarch64 2.5-34.el7              centos-7-aarch64 916 k
+[08:47:20]  postfix                 aarch64 2:2.10.1-9.el7          centos-7-aarch64 2.5 M
+[08:47:20]  procps-ng               aarch64 3.3.10-28.el7           centos-7-aarch64 290 k
+[08:47:20]  rsyslog                 aarch64 8.24.0-55.el7           centos-7-aarch64 609 k
+[08:47:20]  selinux-policy-targeted noarch  3.13.1-268.el7          centos-7-aarch64 7.0 M
+[08:47:20]  sg3_utils               aarch64 1:1.37-19.el7           centos-7-aarch64 657 k
+[08:47:20]  sg3_utils-libs          aarch64 1:1.37-19.el7           centos-7-aarch64  61 k
+[08:47:20]  tar                     aarch64 2:1.26-35.el7           centos-7-aarch64 838 k
+[08:47:20]  tuned                   noarch  2.11.0-9.el7            centos-7-aarch64 268 k
+[08:47:20]  xfsprogs                aarch64 4.5.0-22.el7            centos-7-aarch64 886 k
+[08:47:20] Installing for dependencies:
+[08:47:20]  NetworkManager-libnm    aarch64 1:1.18.8-1.el7          centos-7-aarch64 1.7 M
+[08:47:20]  alsa-lib                aarch64 1.1.8-1.el7             centos-7-aarch64 394 k
+[08:47:20]  alsa-tools-firmware     aarch64 1.1.0-1.el7             centos-7-aarch64  35 k
+[08:47:20]  bc                      aarch64 1.06.95-13.el7          centos-7-aarch64 112 k
+[08:47:20]  bind-export-libs        aarch64 32:9.11.4-26.P2.el7     centos-7-aarch64 1.0 M
+[08:47:20]  centos-logos            noarch  70.0.6-3.el7.centos     centos-7-aarch64  21 M
+[08:47:20]  centos-release          aarch64 7-9.2009.0.el7.centos   centos-7-aarch64  28 k
+[08:47:20]  cronie-anacron          aarch64 1.4.11-23.el7           centos-7-aarch64  36 k
+[08:47:20]  crontabs                noarch  1.11-6.20121102git.el7  centos-7-aarch64  13 k
+[08:47:20]  dbus-glib               aarch64 0.100-7.el7             centos-7-aarch64  99 k
+[08:47:20]  dbus-python             aarch64 1.1.1-9.el7             centos-7-aarch64 202 k
+[08:47:20]  device-mapper           aarch64 7:1.02.170-6.el7        centos-7-aarch64 293 k
+[08:47:20]  device-mapper-libs      aarch64 7:1.02.170-6.el7        centos-7-aarch64 312 k
+[08:47:20]  dhcp-common             aarch64 12:4.2.5-82.el7.centos  centos-7-aarch64 176 k
+[08:47:20]  dhcp-libs               aarch64 12:4.2.5-82.el7.centos  centos-7-aarch64 129 k
+[08:47:20]  dmidecode               aarch64 1:3.2-5.el7             centos-7-aarch64  63 k
+[08:47:20]  dracut                  aarch64 033-572.el7             centos-7-aarch64 329 k
+[08:47:20]  dracut-network          aarch64 033-572.el7             centos-7-aarch64 103 k
+[08:47:20]  e2fsprogs-libs          aarch64 1.42.9-19.el7           centos-7-aarch64 160 k
+[08:47:20]  ebtables                aarch64 2.0.10-16.el7           centos-7-aarch64 122 k
+[08:47:20]  ethtool                 aarch64 2:4.8-10.el7            centos-7-aarch64 125 k
+[08:47:20]  findutils               aarch64 1:4.5.11-6.el7          centos-7-aarch64 557 k
+[08:47:20]  fipscheck               aarch64 1.4.1-6.el7             centos-7-aarch64  22 k
+[08:47:20]  fipscheck-lib           aarch64 1.4.1-6.el7             centos-7-aarch64  10 k
+[08:47:20]  firewalld-filesystem    noarch  0.6.3-11.el7            centos-7-aarch64  51 k
+[08:47:20]  fxload                  aarch64 2002_04_11-16.el7       centos-7-aarch64  25 k
+[08:47:20]  gobject-introspection   aarch64 1.56.1-1.el7            centos-7-aarch64 235 k
+[08:47:20]  groff-base              aarch64 1.22.2-8.el7            centos-7-aarch64 920 k
+[08:47:20]  hardlink                aarch64 1:1.0-19.el7            centos-7-aarch64  14 k
+[08:47:20]  hwdata                  aarch64 0.252-9.7.el7           centos-7-aarch64 2.5 M
+[08:47:20]  ipset                   aarch64 7.1-1.el7               centos-7-aarch64  38 k
+[08:47:20]  ipset-libs              aarch64 7.1-1.el7               centos-7-aarch64  61 k
+[08:47:20]  jansson                 aarch64 2.10-1.el7              centos-7-aarch64  35 k
+[08:47:20]  kbd-legacy              noarch  1.15.5-15.el7           centos-7-aarch64 466 k
+[08:47:20]  kbd-misc                noarch  1.15.5-15.el7           centos-7-aarch64 1.4 M
+[08:47:20]  kernel-tools-libs       aarch64 4.18.0-193.28.1.el7     centos-7-aarch64 2.8 M
+[08:47:20]  kpartx                  aarch64 0.4.9-133.el7           centos-7-aarch64  80 k
+[08:47:20]  libdaemon               aarch64 0.14-7.el7              centos-7-aarch64  29 k
+[08:47:20]  libdrm                  aarch64 2.4.97-2.el7            centos-7-aarch64 102 k
+[08:47:20]  libedit                 aarch64 3.0-12.20121213cvs.el7  centos-7-aarch64  85 k
+[08:47:20]  libestr                 aarch64 0.1.9-2.el7             centos-7-aarch64  20 k
+[08:47:20]  libfastjson             aarch64 0.99.4-3.el7            centos-7-aarch64  26 k
+[08:47:20]  libmnl                  aarch64 1.0.3-7.el7             centos-7-aarch64  23 k
+[08:47:20]  libndp                  aarch64 1.2-9.el7               centos-7-aarch64  32 k
+[08:47:20]  libnetfilter_conntrack  aarch64 1.0.6-1.el7_3           centos-7-aarch64  51 k
+[08:47:20]  libnfnetlink            aarch64 1.0.1-4.el7             centos-7-aarch64  25 k
+[08:47:20]  libnl3                  aarch64 3.2.28-4.el7            centos-7-aarch64 254 k
+[08:47:20]  libnl3-cli              aarch64 3.2.28-4.el7            centos-7-aarch64 169 k
+[08:47:20]  libpipeline             aarch64 1.2.3-3.el7             centos-7-aarch64  52 k
+[08:47:20]  libselinux-python       aarch64 2.5-15.el7              centos-7-aarch64 222 k
+[08:47:20]  libselinux-utils        aarch64 2.5-15.el7              centos-7-aarch64 154 k
+[08:47:20]  libss                   aarch64 1.42.9-19.el7           centos-7-aarch64  46 k
+[08:47:20]  libteam                 aarch64 1.29-3.el7              centos-7-aarch64  49 k
+[08:47:20]  libuser                 aarch64 0.60-9.el7              centos-7-aarch64 397 k
+[08:47:20]  logrotate               aarch64 3.8.6-19.el7            centos-7-aarch64  68 k
+[08:47:20]  lsscsi                  aarch64 0.27-6.el7              centos-7-aarch64  47 k
+[08:47:20]  lzo                     aarch64 2.06-8.el7              centos-7-aarch64  52 k
+[08:47:20]  mariadb-libs            aarch64 1:5.5.68-1.el7          centos-7-aarch64 742 k
+[08:47:20]  mozjs17                 aarch64 17.0.0-20.el7           centos-7-aarch64 968 k
+[08:47:20]  newt                    aarch64 0.52.15-4.el7           centos-7-aarch64 102 k
+[08:47:20]  numactl-libs            aarch64 2.0.12-5.el7            centos-7-aarch64  29 k
+[08:47:20]  openssh                 aarch64 7.4p1-21.el7            centos-7-aarch64 503 k
+[08:47:20]  pciutils-libs           aarch64 3.5.1-3.el7             centos-7-aarch64  44 k
+[08:47:20]  plymouth-core-libs      aarch64 0.8.9-0.34.20140113.el7.centos
+[08:47:20]                                                          centos-7-aarch64 102 k
+[08:47:20]  plymouth-scripts        aarch64 0.8.9-0.34.20140113.el7.centos
+[08:47:20]                                                          centos-7-aarch64  38 k
+[08:47:20]  polkit                  aarch64 0.112-26.el7            centos-7-aarch64 164 k
+[08:47:20]  polkit-pkla-compat      aarch64 0.1-4.el7               centos-7-aarch64  38 k
+[08:47:20]  python-configobj        noarch  4.7.2-7.el7             centos-7-aarch64 117 k
+[08:47:20]  python-decorator        noarch  3.4.0-3.el7             centos-7-aarch64  27 k
+[08:47:20]  python-firewall         noarch  0.6.3-11.el7            centos-7-aarch64 355 k
+[08:47:20]  python-gobject-base     aarch64 3.22.0-1.el7_4.1        centos-7-aarch64 285 k
+[08:47:20]  python-linux-procfs     noarch  0.4.11-4.el7            centos-7-aarch64  33 k
+[08:47:20]  python-perf             aarch64 4.18.0-193.28.1.el7     centos-7-aarch64 2.9 M
+[08:47:20]  python-pyudev           noarch  0.15-9.el7              centos-7-aarch64  55 k
+[08:47:20]  python-schedutils       aarch64 0.4-6.el7               centos-7-aarch64  21 k
+[08:47:20]  python-slip             noarch  0.4.0-4.el7             centos-7-aarch64  31 k
+[08:47:20]  python-slip-dbus        noarch  0.4.0-4.el7             centos-7-aarch64  32 k
+[08:47:20]  selinux-policy          noarch  3.13.1-268.el7          centos-7-aarch64 497 k
+[08:47:20]  slang                   aarch64 2.2.4-11.el7            centos-7-aarch64 479 k
+[08:47:20]  snappy                  aarch64 1.1.0-3.el7             centos-7-aarch64  40 k
+[08:47:20]  systemd-sysv            aarch64 219-78.el7              centos-7-aarch64  95 k
+[08:47:20]  sysvinit-tools          aarch64 2.88-14.dsf.el7         centos-7-aarch64  62 k
+[08:47:20]  tcp_wrappers-libs       aarch64 7.6-77.el7              centos-7-aarch64  65 k
+[08:47:20]  teamd                   aarch64 1.29-3.el7              centos-7-aarch64 112 k
+[08:47:20]  virt-what               aarch64 1.18-4.el7              centos-7-aarch64  29 k
+[08:47:20]  wpa_supplicant          aarch64 1:2.6-12.el7            centos-7-aarch64 1.1 M
+[08:47:20]  xz                      aarch64 5.2.2-1.el7             centos-7-aarch64 229 k
+[08:47:20] 
+[08:47:20] Transaction Summary
+[08:47:20] ================================================================================
+[08:47:20] Install  57 Packages (+87 Dependent packages)
+[08:47:20] 
+[08:47:20] Total download size: 87 M
+[08:47:20] Installed size: 318 M
+[08:47:20] Downloading packages:
+[08:47:33] --------------------------------------------------------------------------------
+[08:47:33] Total                                              6.5 MB/s |  87 MB  00:13     
+[08:47:34] Running transaction check
+[08:47:34] Running transaction test
+[08:47:35] Transaction test succeeded
+[08:47:35] Running transaction
+[08:47:36]   Installing : libnl3-3.2.28-4.el7.aarch64                                1/144 
+[08:47:36]   Installing : libmnl-1.0.3-7.el7.aarch64                                 2/144 
+[08:47:36]   Installing : 1:findutils-4.5.11-6.el7.aarch64                           3/144 
+[08:47:37]   Installing : python-decorator-3.4.0-3.el7.noarch                        4/144 
+[08:47:37]   Installing : iputils-20160308-10.el7.aarch64                            5/144 
+[08:47:37]   Installing : systemd-sysv-219-78.el7.aarch64                            6/144 
+[08:47:37]   Installing : libnl3-cli-3.2.28-4.el7.aarch64                            7/144 
+[08:47:38]   Installing : libnfnetlink-1.0.1-4.el7.aarch64                           8/144 
+[08:47:38]   Installing : groff-base-1.22.2-8.el7.aarch64                            9/144 
+[08:47:38]   Installing : lzo-2.06-8.el7.aarch64                                    10/144 
+[08:47:38]   Installing : 2:ethtool-4.8-10.el7.aarch64                              11/144 
+[08:47:38]   Installing : numactl-libs-2.0.12-5.el7.aarch64                         12/144 
+[08:47:38]   Installing : procps-ng-3.3.10-28.el7.aarch64                           13/144 
+[08:47:38]   Installing : hostname-3.13-3.el7_7.1.aarch64                           14/144 
+[08:47:39]   Installing : jansson-2.10-1.el7.aarch64                                15/144 
+[08:47:39]   Installing : 1:NetworkManager-libnm-1.18.8-1.el7.aarch64               16/144 
+[08:47:39]   Installing : 12:dhcp-libs-4.2.5-82.el7.centos.aarch64                  17/144 
+[08:47:40]   Installing : e2fsprogs-libs-1.42.9-19.el7.aarch64                      18/144 
+[08:47:40]   Installing : sysvinit-tools-2.88-14.dsf.el7.aarch64                    19/144 
+[08:47:40]   Installing : 12:dhcp-common-4.2.5-82.el7.centos.aarch64                20/144 
+[08:47:40]   Installing : python-perf-4.18.0-193.28.1.el7.aarch64                   21/144 
+[08:47:40]   Installing : less-458-9.el7.aarch64                                    22/144 
+[08:47:41]   Installing : libnetfilter_conntrack-1.0.6-1.el7_3.aarch64              23/144 
+[08:47:41]   Installing : iptables-1.4.21-35.el7.aarch64                            24/144 
+[08:47:41]   Installing : iproute-4.11.0-30.el7.aarch64                             25/144 
+[08:47:42]   Installing : libteam-1.29-3.el7.aarch64                                26/144 
+[08:47:42]   Installing : 1:wpa_supplicant-2.6-12.el7.aarch64                       27/144 
+[08:47:42]   Installing : ipset-libs-7.1-1.el7.aarch64                              28/144 
+[08:47:42]   Installing : ipset-7.1-1.el7.aarch64                                   29/144 
+[08:47:42]   Installing : fipscheck-lib-1.4.1-6.el7.aarch64                         30/144 
+[08:47:43]   Installing : fipscheck-1.4.1-6.el7.aarch64                             31/144 
+[08:47:43]   Installing : openssh-7.4p1-21.el7.aarch64                              32/144 
+[08:47:43]   Installing : 7:device-mapper-libs-1.02.170-6.el7.aarch64               33/144 
+[08:47:43]   Installing : 7:device-mapper-1.02.170-6.el7.aarch64                    34/144 
+[08:47:43]   Installing : kpartx-0.4.9-133.el7.aarch64                              35/144 
+[08:47:43]   Installing : crontabs-1.11-6.20121102git.el7.noarch                    36/144 
+[08:47:43]   Installing : cronie-1.4.11-23.el7.aarch64                              37/144 
+[08:47:44]   Installing : cronie-anacron-1.4.11-23.el7.aarch64                      38/144 
+[08:47:45]   Installing : 1:mariadb-libs-5.5.68-1.el7.aarch64                       39/144 
+[08:47:45]   Installing : libss-1.42.9-19.el7.aarch64                               40/144 
+[08:47:45]   Installing : libdaemon-0.14-7.el7.aarch64                              41/144 
+[08:47:45]   Installing : teamd-1.29-3.el7.aarch64                                  42/144 
+[08:47:47]   Installing : libpipeline-1.2.3-3.el7.aarch64                           43/144 
+[08:47:47]   Installing : centos-logos-70.0.6-3.el7.centos.noarch                   44/144 
+[08:47:47]   Installing : tcp_wrappers-libs-7.6-77.el7.aarch64                      45/144 
+[08:47:47]   Installing : snappy-1.1.0-3.el7.aarch64                                46/144 
+[08:47:47]   Installing : python-linux-procfs-0.4.11-4.el7.noarch                   47/144 
+[08:47:47]   Installing : libndp-1.2-9.el7.aarch64                                  48/144 
+[08:47:48]   Installing : ebtables-2.0.10-16.el7.aarch64                            49/144 
+[08:47:49]   Installing : lsscsi-0.27-6.el7.aarch64                                 50/144 
+[08:47:49]   Installing : kbd-legacy-1.15.5-15.el7.noarch                           51/144 
+[08:47:49]   Installing : libfastjson-0.99.4-3.el7.aarch64                          52/144 
+[08:47:50]   Installing : 2:tar-1.26-35.el7.aarch64                                 53/144 
+[08:47:50]   Installing : libuser-0.60-9.el7.aarch64                                54/144 
+[08:47:50]   Installing : libdrm-2.4.97-2.el7.aarch64                               55/144 
+[08:47:50]   Installing : xz-5.2.2-1.el7.aarch64                                    56/144 
+[08:47:50]   Installing : plymouth-core-libs-0.8.9-0.34.20140113.el7.centos.aarc    57/144 
+[08:47:51]   Installing : gobject-introspection-1.56.1-1.el7.aarch64                58/144 
+[08:47:51]   Installing : python-gobject-base-3.22.0-1.el7_4.1.aarch64              59/144 
+[08:47:52]   Installing : libselinux-utils-2.5-15.el7.aarch64                       60/144 
+[08:47:52]   Installing : policycoreutils-2.5-34.el7.aarch64                        61/144 
+[08:47:52]   Installing : selinux-policy-3.13.1-268.el7.noarch                      62/144 
+[08:47:53]   Installing : 1:hardlink-1.0-19.el7.aarch64                             63/144 
+[08:47:53]   Installing : dracut-033-572.el7.aarch64                                64/144 
+[08:47:53]   Installing : centos-release-7-9.2009.0.el7.centos.aarch64              65/144 
+[08:47:53]   Installing : python-configobj-4.7.2-7.el7.noarch                       66/144 
+[08:47:53]   Installing : kernel-tools-libs-4.18.0-193.28.1.el7.aarch64             67/144 
+[08:47:54]   Installing : libedit-3.0-12.20121213cvs.el7.aarch64                    68/144 
+[08:47:54]   Installing : slang-2.2.4-11.el7.aarch64                                69/144 
+[08:47:54]   Installing : newt-0.52.15-4.el7.aarch64                                70/144 
+[08:47:54]   Installing : alsa-lib-1.1.8-1.el7.aarch64                              71/144 
+[08:47:55]   Installing : libselinux-python-2.5-15.el7.aarch64                      72/144 
+[08:47:55]   Installing : python-slip-0.4.0-4.el7.noarch                            73/144 
+[08:47:55]   Installing : 1:sg3_utils-libs-1.37-19.el7.aarch64                      74/144 
+[08:47:56]   Installing : bc-1.06.95-13.el7.aarch64                                 75/144 
+[08:47:56]   Installing : initscripts-9.49.53-1.el7.aarch64                         76/144 
+[08:47:56]   Installing : plymouth-scripts-0.8.9-0.34.20140113.el7.centos.aarch6    77/144 
+[08:47:57]   Installing : plymouth-0.8.9-0.34.20140113.el7.centos.aarch64           78/144 
+[08:47:57]   Installing : kbd-misc-1.15.5-15.el7.noarch                             79/144 
+[08:47:57]   Installing : python-schedutils-0.4-6.el7.aarch64                       80/144 
+[08:47:57]   Installing : 1:dmidecode-3.2-5.el7.aarch64                             81/144 
+[08:47:57]   Installing : virt-what-1.18-4.el7.aarch64                              82/144 
+[08:47:57]   Installing : python-pyudev-0.15-9.el7.noarch                           83/144 
+[08:47:58]   Installing : fxload-2002_04_11-16.el7.aarch64                          84/144 
+[08:47:59]   Installing : alsa-firmware-1.0.28-2.el7.noarch                         85/144 
+[08:47:59]   Installing : alsa-tools-firmware-1.1.0-1.el7.aarch64                   86/144 
+[08:48:00]   Installing : pciutils-libs-3.5.1-3.el7.aarch64                         87/144 
+[08:48:02]   Installing : hwdata-0.252-9.7.el7.aarch64                              88/144 
+[08:48:02]   Installing : libestr-0.1.9-2.el7.aarch64                               89/144 
+[08:48:02]   Installing : logrotate-3.8.6-19.el7.aarch64                            90/144 
+[08:48:02]   Installing : dbus-glib-0.100-7.el7.aarch64                             91/144 
+[08:48:02]   Installing : dbus-python-1.1.1-9.el7.aarch64                           92/144 
+[08:48:03]   Installing : python-slip-dbus-0.4.0-4.el7.noarch                       93/144 
+[08:48:03]   Installing : python-firewall-0.6.3-11.el7.noarch                       94/144 
+[08:48:03]   Installing : mozjs17-17.0.0-20.el7.aarch64                             95/144 
+[08:48:03]   Installing : polkit-0.112-26.el7.aarch64                               96/144 
+[08:48:04]   Installing : polkit-pkla-compat-0.1-4.el7.aarch64                      97/144 
+[08:48:06]   Installing : 1:NetworkManager-1.18.8-1.el7.aarch64                     98/144 
+[08:48:06]   Installing : 32:bind-export-libs-9.11.4-26.P2.el7.aarch64              99/144 
+[08:48:06]   Installing : 12:dhclient-4.2.5-82.el7.centos.aarch64                  100/144 
+[08:48:06]   Installing : dracut-network-033-572.el7.aarch64                       101/144 
+[08:48:07]   Installing : firewalld-filesystem-0.6.3-11.el7.noarch                 102/144 
+[08:48:07]   Installing : firewalld-0.6.3-11.el7.noarch                            103/144 
+[08:48:07]   Installing : kexec-tools-2.0.15-51.el7.aarch64                        104/144 
+[08:48:07]   Installing : 1:NetworkManager-tui-1.18.8-1.el7.aarch64                105/144 
+[08:48:08]   Installing : 1:NetworkManager-team-1.18.8-1.el7.aarch64               106/144 
+[08:48:08]   Installing : tuned-2.11.0-9.el7.noarch                                107/144 
+[08:48:09]   Installing : rsyslog-8.24.0-55.el7.aarch64                            108/144 
+[08:48:09]   Installing : lshw-B.02.18-17.el7.aarch64                              109/144 
+[08:48:09]   Installing : kernel-tools-4.18.0-193.28.1.el7.aarch64                 110/144 
+[08:48:10]   Installing : kbd-1.15.5-15.el7.aarch64                                111/144 
+[08:48:10]   Installing : 1:sg3_utils-1.37-19.el7.aarch64                          112/144 
+[08:48:10]   Installing : openssh-clients-7.4p1-21.el7.aarch64                     113/144 
+[08:48:13]   Installing : dracut-config-rescue-033-572.el7.aarch64                 114/144 
+[08:48:13]   Installing : selinux-policy-targeted-3.13.1-268.el7.noarch            115/144 
+[08:48:13]   Installing : passwd-0.79-6.el7.aarch64                                116/144 
+[08:48:14]   Installing : iprutils-2.4.17.1-3.el7_7.aarch64                        117/144 
+[08:48:14]   Installing : audit-2.8.5-4.el7.aarch64                                118/144 
+[08:48:15]   Installing : man-db-2.6.3-11.el7.aarch64                              119/144 
+[08:48:17]   Installing : e2fsprogs-1.42.9-19.el7.aarch64                          120/144 
+[08:48:21]   Installing : 2:postfix-2.10.1-9.el7.aarch64                           121/144 
+[08:48:21]   Installing : parted-3.1-32.el7.aarch64                                122/144 
+[08:48:21]   Installing : btrfs-progs-4.9.1-1.el7.aarch64                          123/144 
+[08:48:22]   Installing : 3:irqbalance-1.0.7-12.el7.aarch64                        124/144 
+[08:48:22]   Installing : iwl2030-firmware-18.168.6.1-79.el7.noarch                125/144 
+[08:48:22]   Installing : iwl105-firmware-18.168.6.1-79.el7.noarch                 126/144 
+[08:48:27]   Installing : libsysfs-2.1.0-16.el7.aarch64                            127/144 
+[08:48:28]   Installing : iwl7260-firmware-25.30.13.0-79.el7.noarch                128/144 
+[08:48:28]   Installing : iwl4965-firmware-228.61.2.24-79.el7.noarch               129/144 
+[08:48:28]   Installing : iwl5000-firmware-8.83.5.1_1-79.el7.noarch                130/144 
+[08:48:28]   Installing : iwl135-firmware-18.168.6.1-79.el7.noarch                 131/144 
+[08:48:28]   Installing : iwl6050-firmware-41.28.5.1-79.el7.noarch                 132/144 
+[08:48:28]   Installing : aic94xx-firmware-30-6.el7.noarch                         133/144 
+[08:48:29]   Installing : 2:ivtv-firmware-20080701-26.el7.noarch                   134/144 
+[08:48:29]   Installing : xfsprogs-4.5.0-22.el7.aarch64                            135/144 
+[08:48:29]   Installing : iwl3945-firmware-15.32.2.9-79.el7.noarch                 136/144 
+[08:48:30]   Installing : iwl6000-firmware-9.221.4.1-79.el7.noarch                 137/144 
+[08:48:30]   Installing : iwl3160-firmware-25.30.13.0-79.el7.noarch                138/144 
+[08:48:30]   Installing : iwl6000g2b-firmware-18.168.6.1-79.el7.noarch             139/144 
+[08:48:31]   Installing : iwl100-firmware-39.31.5.1-79.el7.noarch                  140/144 
+[08:48:32]   Installing : iwl6000g2a-firmware-18.168.6.1-79.el7.noarch             141/144 
+[08:48:32]   Installing : iwl5150-firmware-8.24.2.2-79.el7.noarch                  142/144 
+[08:48:32]   Installing : 1:iwl1000-firmware-39.31.5.1-79.el7.noarch               143/144 
+[08:48:33]   Installing : iwl2000-firmware-18.168.6.1-79.el7.noarch                144/144 
+[08:48:33]   Verifying  : 3:irqbalance-1.0.7-12.el7.aarch64                          1/144 
+[08:48:33]   Verifying  : firewalld-filesystem-0.6.3-11.el7.noarch                   2/144 
+[08:48:33]   Verifying  : selinux-policy-targeted-3.13.1-268.el7.noarch              3/144 
+[08:48:33]   Verifying  : 32:bind-export-libs-9.11.4-26.P2.el7.aarch64               4/144 
+[08:48:33]   Verifying  : mozjs17-17.0.0-20.el7.aarch64                              5/144 
+[08:48:33]   Verifying  : iwl2000-firmware-18.168.6.1-79.el7.noarch                  6/144 
+[08:48:33]   Verifying  : systemd-sysv-219-78.el7.aarch64                            7/144 
+[08:48:33]   Verifying  : dbus-glib-0.100-7.el7.aarch64                              8/144 
+[08:48:33]   Verifying  : selinux-policy-3.13.1-268.el7.noarch                       9/144 
+[08:48:33]   Verifying  : 1:iwl1000-firmware-39.31.5.1-79.el7.noarch                10/144 
+[08:48:33]   Verifying  : openssh-7.4p1-21.el7.aarch64                              11/144 
+[08:48:33]   Verifying  : logrotate-3.8.6-19.el7.aarch64                            12/144 
+[08:48:33]   Verifying  : openssh-clients-7.4p1-21.el7.aarch64                      13/144 
+[08:48:33]   Verifying  : iwl5150-firmware-8.24.2.2-79.el7.noarch                   14/144 
+[08:48:33]   Verifying  : iwl6000g2a-firmware-18.168.6.1-79.el7.noarch              15/144 
+[08:48:33]   Verifying  : iwl100-firmware-39.31.5.1-79.el7.noarch                   16/144 
+[08:48:33]   Verifying  : cronie-anacron-1.4.11-23.el7.aarch64                      17/144 
+[08:48:33]   Verifying  : sysvinit-tools-2.88-14.dsf.el7.aarch64                    18/144 
+[08:48:33]   Verifying  : libestr-0.1.9-2.el7.aarch64                               19/144 
+[08:48:33]   Verifying  : python-perf-4.18.0-193.28.1.el7.aarch64                   20/144 
+[08:48:33]   Verifying  : hwdata-0.252-9.7.el7.aarch64                              21/144 
+[08:48:33]   Verifying  : cronie-1.4.11-23.el7.aarch64                              22/144 
+[08:48:33]   Verifying  : iwl6000g2b-firmware-18.168.6.1-79.el7.noarch              23/144 
+[08:48:34]   Verifying  : iputils-20160308-10.el7.aarch64                           24/144 
+[08:48:34]   Verifying  : pciutils-libs-3.5.1-3.el7.aarch64                         25/144 
+[08:48:34]   Verifying  : python-decorator-3.4.0-3.el7.noarch                       26/144 
+[08:48:34]   Verifying  : fxload-2002_04_11-16.el7.aarch64                          27/144 
+[08:48:34]   Verifying  : 1:findutils-4.5.11-6.el7.aarch64                          28/144 
+[08:48:34]   Verifying  : iwl3160-firmware-25.30.13.0-79.el7.noarch                 29/144 
+[08:48:34]   Verifying  : 7:device-mapper-1.02.170-6.el7.aarch64                    30/144 
+[08:48:34]   Verifying  : iwl6000-firmware-9.221.4.1-79.el7.noarch                  31/144 
+[08:48:34]   Verifying  : kexec-tools-2.0.15-51.el7.aarch64                         32/144 
+[08:48:34]   Verifying  : python-pyudev-0.15-9.el7.noarch                           33/144 
+[08:48:34]   Verifying  : iwl3945-firmware-15.32.2.9-79.el7.noarch                  34/144 
+[08:48:34]   Verifying  : e2fsprogs-libs-1.42.9-19.el7.aarch64                      35/144 
+[08:48:34]   Verifying  : audit-2.8.5-4.el7.aarch64                                 36/144 
+[08:48:34]   Verifying  : alsa-firmware-1.0.28-2.el7.noarch                         37/144 
+[08:48:34]   Verifying  : 1:dmidecode-3.2-5.el7.aarch64                             38/144 
+[08:48:34]   Verifying  : fipscheck-1.4.1-6.el7.aarch64                             39/144 
+[08:48:34]   Verifying  : 1:NetworkManager-tui-1.18.8-1.el7.aarch64                 40/144 
+[08:48:34]   Verifying  : xfsprogs-4.5.0-22.el7.aarch64                             41/144 
+[08:48:34]   Verifying  : dracut-033-572.el7.aarch64                                42/144 
+[08:48:34]   Verifying  : python-schedutils-0.4-6.el7.aarch64                       43/144 
+[08:48:34]   Verifying  : 1:NetworkManager-team-1.18.8-1.el7.aarch64                44/144 
+[08:48:34]   Verifying  : teamd-1.29-3.el7.aarch64                                  45/144 
+[08:48:34]   Verifying  : 2:ivtv-firmware-20080701-26.el7.noarch                    46/144 
+[08:48:34]   Verifying  : kbd-misc-1.15.5-15.el7.noarch                             47/144 
+[08:48:34]   Verifying  : bc-1.06.95-13.el7.aarch64                                 48/144 
+[08:48:35]   Verifying  : e2fsprogs-1.42.9-19.el7.aarch64                           49/144 
+[08:48:35]   Verifying  : 1:sg3_utils-libs-1.37-19.el7.aarch64                      50/144 
+[08:48:35]   Verifying  : 12:dhcp-libs-4.2.5-82.el7.centos.aarch64                  51/144 
+[08:48:35]   Verifying  : aic94xx-firmware-30-6.el7.noarch                          52/144 
+[08:48:35]   Verifying  : ipset-7.1-1.el7.aarch64                                   53/144 
+[08:48:35]   Verifying  : 12:dhclient-4.2.5-82.el7.centos.aarch64                   54/144 
+[08:48:35]   Verifying  : libselinux-python-2.5-15.el7.aarch64                      55/144 
+[08:48:35]   Verifying  : alsa-lib-1.1.8-1.el7.aarch64                              56/144 
+[08:48:35]   Verifying  : libnl3-cli-3.2.28-4.el7.aarch64                           57/144 
+[08:48:35]   Verifying  : 7:device-mapper-libs-1.02.170-6.el7.aarch64               58/144 
+[08:48:35]   Verifying  : plymouth-0.8.9-0.34.20140113.el7.centos.aarch64           59/144 
+[08:48:35]   Verifying  : iwl6050-firmware-41.28.5.1-79.el7.noarch                  60/144 
+[08:48:35]   Verifying  : iwl135-firmware-18.168.6.1-79.el7.noarch                  61/144 
+[08:48:35]   Verifying  : slang-2.2.4-11.el7.aarch64                                62/144 
+[08:48:35]   Verifying  : 1:sg3_utils-1.37-19.el7.aarch64                           63/144 
+[08:48:35]   Verifying  : libedit-3.0-12.20121213cvs.el7.aarch64                    64/144 
+[08:48:35]   Verifying  : kpartx-0.4.9-133.el7.aarch64                              65/144 
+[08:48:35]   Verifying  : kernel-tools-libs-4.18.0-193.28.1.el7.aarch64             66/144 
+[08:48:35]   Verifying  : dracut-network-033-572.el7.aarch64                        67/144 
+[08:48:35]   Verifying  : python-configobj-4.7.2-7.el7.noarch                       68/144 
+[08:48:35]   Verifying  : 1:NetworkManager-libnm-1.18.8-1.el7.aarch64               69/144 
+[08:48:35]   Verifying  : centos-release-7-9.2009.0.el7.centos.aarch64              70/144 
+[08:48:35]   Verifying  : jansson-2.10-1.el7.aarch64                                71/144 
+[08:48:35]   Verifying  : iwl5000-firmware-8.83.5.1_1-79.el7.noarch                 72/144 
+[08:48:35]   Verifying  : python-firewall-0.6.3-11.el7.noarch                       73/144 
+[08:48:35]   Verifying  : 1:hardlink-1.0-19.el7.aarch64                             74/144 
+[08:48:35]   Verifying  : iwl4965-firmware-228.61.2.24-79.el7.noarch                75/144 
+[08:48:35]   Verifying  : parted-3.1-32.el7.aarch64                                 76/144 
+[08:48:35]   Verifying  : crontabs-1.11-6.20121102git.el7.noarch                    77/144 
+[08:48:35]   Verifying  : libselinux-utils-2.5-15.el7.aarch64                       78/144 
+[08:48:35]   Verifying  : libteam-1.29-3.el7.aarch64                                79/144 
+[08:48:35]   Verifying  : libmnl-1.0.3-7.el7.aarch64                                80/144 
+[08:48:35]   Verifying  : gobject-introspection-1.56.1-1.el7.aarch64                81/144 
+[08:48:35]   Verifying  : plymouth-core-libs-0.8.9-0.34.20140113.el7.centos.aarc    82/144 
+[08:48:35]   Verifying  : xz-5.2.2-1.el7.aarch64                                    83/144 
+[08:48:35]   Verifying  : libdrm-2.4.97-2.el7.aarch64                               84/144 
+[08:48:35]   Verifying  : libuser-0.60-9.el7.aarch64                                85/144 
+[08:48:35]   Verifying  : 1:wpa_supplicant-2.6-12.el7.aarch64                       86/144 
+[08:48:35]   Verifying  : 2:tar-1.26-35.el7.aarch64                                 87/144 
+[08:48:35]   Verifying  : libfastjson-0.99.4-3.el7.aarch64                          88/144 
+[08:48:35]   Verifying  : iprutils-2.4.17.1-3.el7_7.aarch64                         89/144 
+[08:48:35]   Verifying  : polkit-pkla-compat-0.1-4.el7.aarch64                      90/144 
+[08:48:35]   Verifying  : policycoreutils-2.5-34.el7.aarch64                        91/144 
+[08:48:36]   Verifying  : iwl7260-firmware-25.30.13.0-79.el7.noarch                 92/144 
+[08:48:36]   Verifying  : kbd-legacy-1.15.5-15.el7.noarch                           93/144 
+[08:48:36]   Verifying  : tuned-2.11.0-9.el7.noarch                                 94/144 
+[08:48:36]   Verifying  : fipscheck-lib-1.4.1-6.el7.aarch64                         95/144 
+[08:48:36]   Verifying  : firewalld-0.6.3-11.el7.noarch                             96/144 
+[08:48:36]   Verifying  : rsyslog-8.24.0-55.el7.aarch64                             97/144 
+[08:48:36]   Verifying  : passwd-0.79-6.el7.aarch64                                 98/144 
+[08:48:36]   Verifying  : dracut-config-rescue-033-572.el7.aarch64                  99/144 
+[08:48:36]   Verifying  : python-slip-0.4.0-4.el7.noarch                           100/144 
+[08:48:36]   Verifying  : lsscsi-0.27-6.el7.aarch64                                101/144 
+[08:48:36]   Verifying  : alsa-tools-firmware-1.1.0-1.el7.aarch64                  102/144 
+[08:48:36]   Verifying  : initscripts-9.49.53-1.el7.aarch64                        103/144 
+[08:48:36]   Verifying  : iptables-1.4.21-35.el7.aarch64                           104/144 
+[08:48:36]   Verifying  : iproute-4.11.0-30.el7.aarch64                            105/144 
+[08:48:36]   Verifying  : ebtables-2.0.10-16.el7.aarch64                           106/144 
+[08:48:36]   Verifying  : 1:NetworkManager-1.18.8-1.el7.aarch64                    107/144 
+[08:48:36]   Verifying  : 2:postfix-2.10.1-9.el7.aarch64                           108/144 
+[08:48:36]   Verifying  : libsysfs-2.1.0-16.el7.aarch64                            109/144 
+[08:48:36]   Verifying  : polkit-0.112-26.el7.aarch64                              110/144 
+[08:48:36]   Verifying  : libndp-1.2-9.el7.aarch64                                 111/144 
+[08:48:36]   Verifying  : python-linux-procfs-0.4.11-4.el7.noarch                  112/144 
+[08:48:36]   Verifying  : btrfs-progs-4.9.1-1.el7.aarch64                          113/144 
+[08:48:36]   Verifying  : plymouth-scripts-0.8.9-0.34.20140113.el7.centos.aarch6   114/144 
+[08:48:36]   Verifying  : virt-what-1.18-4.el7.aarch64                             115/144 
+[08:48:36]   Verifying  : kbd-1.15.5-15.el7.aarch64                                116/144 
+[08:48:36]   Verifying  : dbus-python-1.1.1-9.el7.aarch64                          117/144 
+[08:48:36]   Verifying  : ipset-libs-7.1-1.el7.aarch64                             118/144 
+[08:48:36]   Verifying  : snappy-1.1.0-3.el7.aarch64                               119/144 
+[08:48:36]   Verifying  : iwl105-firmware-18.168.6.1-79.el7.noarch                 120/144 
+[08:48:36]   Verifying  : hostname-3.13-3.el7_7.1.aarch64                          121/144 
+[08:48:36]   Verifying  : tcp_wrappers-libs-7.6-77.el7.aarch64                     122/144 
+[08:48:36]   Verifying  : procps-ng-3.3.10-28.el7.aarch64                          123/144 
+[08:48:36]   Verifying  : centos-logos-70.0.6-3.el7.centos.noarch                  124/144 
+[08:48:36]   Verifying  : less-458-9.el7.aarch64                                   125/144 
+[08:48:36]   Verifying  : numactl-libs-2.0.12-5.el7.aarch64                        126/144 
+[08:48:36]   Verifying  : python-slip-dbus-0.4.0-4.el7.noarch                      127/144 
+[08:48:36]   Verifying  : 2:ethtool-4.8-10.el7.aarch64                             128/144 
+[08:48:36]   Verifying  : libpipeline-1.2.3-3.el7.aarch64                          129/144 
+[08:48:36]   Verifying  : kernel-tools-4.18.0-193.28.1.el7.aarch64                 130/144 
+[08:48:37]   Verifying  : libnl3-3.2.28-4.el7.aarch64                              131/144 
+[08:48:37]   Verifying  : iwl2030-firmware-18.168.6.1-79.el7.noarch                132/144 
+[08:48:37]   Verifying  : lzo-2.06-8.el7.aarch64                                   133/144 
+[08:48:37]   Verifying  : groff-base-1.22.2-8.el7.aarch64                          134/144 
+[08:48:37]   Verifying  : libdaemon-0.14-7.el7.aarch64                             135/144 
+[08:48:37]   Verifying  : libss-1.42.9-19.el7.aarch64                              136/144 
+[08:48:37]   Verifying  : libnfnetlink-1.0.1-4.el7.aarch64                         137/144 
+[08:48:37]   Verifying  : newt-0.52.15-4.el7.aarch64                               138/144 
+[08:48:37]   Verifying  : lshw-B.02.18-17.el7.aarch64                              139/144 
+[08:48:37]   Verifying  : man-db-2.6.3-11.el7.aarch64                              140/144 
+[08:48:37]   Verifying  : python-gobject-base-3.22.0-1.el7_4.1.aarch64             141/144 
+[08:48:37]   Verifying  : 12:dhcp-common-4.2.5-82.el7.centos.aarch64               142/144 
+[08:48:37]   Verifying  : libnetfilter_conntrack-1.0.6-1.el7_3.aarch64             143/144 
+[08:48:37]   Verifying  : 1:mariadb-libs-5.5.68-1.el7.aarch64                      144/144 
+[08:48:37] 
+[08:48:37] Installed:
+[08:48:37]   NetworkManager.aarch64 1:1.18.8-1.el7                                         
+[08:48:37]   NetworkManager-team.aarch64 1:1.18.8-1.el7                                    
+[08:48:37]   NetworkManager-tui.aarch64 1:1.18.8-1.el7                                     
+[08:48:37]   aic94xx-firmware.noarch 0:30-6.el7                                            
+[08:48:37]   alsa-firmware.noarch 0:1.0.28-2.el7                                           
+[08:48:37]   audit.aarch64 0:2.8.5-4.el7                                                   
+[08:48:37]   btrfs-progs.aarch64 0:4.9.1-1.el7                                             
+[08:48:37]   cronie.aarch64 0:1.4.11-23.el7                                                
+[08:48:37]   dhclient.aarch64 12:4.2.5-82.el7.centos                                       
+[08:48:37]   dracut-config-rescue.aarch64 0:033-572.el7                                    
+[08:48:37]   e2fsprogs.aarch64 0:1.42.9-19.el7                                             
+[08:48:37]   firewalld.noarch 0:0.6.3-11.el7                                               
+[08:48:37]   hostname.aarch64 0:3.13-3.el7_7.1                                             
+[08:48:37]   initscripts.aarch64 0:9.49.53-1.el7                                           
+[08:48:37]   iproute.aarch64 0:4.11.0-30.el7                                               
+[08:48:37]   iprutils.aarch64 0:2.4.17.1-3.el7_7                                           
+[08:48:37]   iptables.aarch64 0:1.4.21-35.el7                                              
+[08:48:37]   iputils.aarch64 0:20160308-10.el7                                             
+[08:48:37]   irqbalance.aarch64 3:1.0.7-12.el7                                             
+[08:48:37]   ivtv-firmware.noarch 2:20080701-26.el7                                        
+[08:48:37]   iwl100-firmware.noarch 0:39.31.5.1-79.el7                                     
+[08:48:37]   iwl1000-firmware.noarch 1:39.31.5.1-79.el7                                    
+[08:48:37]   iwl105-firmware.noarch 0:18.168.6.1-79.el7                                    
+[08:48:37]   iwl135-firmware.noarch 0:18.168.6.1-79.el7                                    
+[08:48:37]   iwl2000-firmware.noarch 0:18.168.6.1-79.el7                                   
+[08:48:37]   iwl2030-firmware.noarch 0:18.168.6.1-79.el7                                   
+[08:48:37]   iwl3160-firmware.noarch 0:25.30.13.0-79.el7                                   
+[08:48:37]   iwl3945-firmware.noarch 0:15.32.2.9-79.el7                                    
+[08:48:37]   iwl4965-firmware.noarch 0:228.61.2.24-79.el7                                  
+[08:48:37]   iwl5000-firmware.noarch 0:8.83.5.1_1-79.el7                                   
+[08:48:37]   iwl5150-firmware.noarch 0:8.24.2.2-79.el7                                     
+[08:48:37]   iwl6000-firmware.noarch 0:9.221.4.1-79.el7                                    
+[08:48:37]   iwl6000g2a-firmware.noarch 0:18.168.6.1-79.el7                                
+[08:48:37]   iwl6000g2b-firmware.noarch 0:18.168.6.1-79.el7                                
+[08:48:37]   iwl6050-firmware.noarch 0:41.28.5.1-79.el7                                    
+[08:48:37]   iwl7260-firmware.noarch 0:25.30.13.0-79.el7                                   
+[08:48:37]   kbd.aarch64 0:1.15.5-15.el7                                                   
+[08:48:37]   kernel-tools.aarch64 0:4.18.0-193.28.1.el7                                    
+[08:48:37]   kexec-tools.aarch64 0:2.0.15-51.el7                                           
+[08:48:37]   less.aarch64 0:458-9.el7                                                      
+[08:48:37]   libsysfs.aarch64 0:2.1.0-16.el7                                               
+[08:48:37]   lshw.aarch64 0:B.02.18-17.el7                                                 
+[08:48:37]   man-db.aarch64 0:2.6.3-11.el7                                                 
+[08:48:37]   openssh-clients.aarch64 0:7.4p1-21.el7                                        
+[08:48:37]   parted.aarch64 0:3.1-32.el7                                                   
+[08:48:37]   passwd.aarch64 0:0.79-6.el7                                                   
+[08:48:37]   plymouth.aarch64 0:0.8.9-0.34.20140113.el7.centos                             
+[08:48:37]   policycoreutils.aarch64 0:2.5-34.el7                                          
+[08:48:37]   postfix.aarch64 2:2.10.1-9.el7                                                
+[08:48:37]   procps-ng.aarch64 0:3.3.10-28.el7                                             
+[08:48:37]   rsyslog.aarch64 0:8.24.0-55.el7                                               
+[08:48:37]   selinux-policy-targeted.noarch 0:3.13.1-268.el7                               
+[08:48:37]   sg3_utils.aarch64 1:1.37-19.el7                                               
+[08:48:37]   sg3_utils-libs.aarch64 1:1.37-19.el7                                          
+[08:48:37]   tar.aarch64 2:1.26-35.el7                                                     
+[08:48:37]   tuned.noarch 0:2.11.0-9.el7                                                   
+[08:48:37]   xfsprogs.aarch64 0:4.5.0-22.el7                                               
+[08:48:37] 
+[08:48:37] Dependency Installed:
+[08:48:37]   NetworkManager-libnm.aarch64 1:1.18.8-1.el7                                   
+[08:48:37]   alsa-lib.aarch64 0:1.1.8-1.el7                                                
+[08:48:37]   alsa-tools-firmware.aarch64 0:1.1.0-1.el7                                     
+[08:48:37]   bc.aarch64 0:1.06.95-13.el7                                                   
+[08:48:37]   bind-export-libs.aarch64 32:9.11.4-26.P2.el7                                  
+[08:48:37]   centos-logos.noarch 0:70.0.6-3.el7.centos                                     
+[08:48:37]   centos-release.aarch64 0:7-9.2009.0.el7.centos                                
+[08:48:37]   cronie-anacron.aarch64 0:1.4.11-23.el7                                        
+[08:48:37]   crontabs.noarch 0:1.11-6.20121102git.el7                                      
+[08:48:37]   dbus-glib.aarch64 0:0.100-7.el7                                               
+[08:48:37]   dbus-python.aarch64 0:1.1.1-9.el7                                             
+[08:48:37]   device-mapper.aarch64 7:1.02.170-6.el7                                        
+[08:48:37]   device-mapper-libs.aarch64 7:1.02.170-6.el7                                   
+[08:48:37]   dhcp-common.aarch64 12:4.2.5-82.el7.centos                                    
+[08:48:37]   dhcp-libs.aarch64 12:4.2.5-82.el7.centos                                      
+[08:48:37]   dmidecode.aarch64 1:3.2-5.el7                                                 
+[08:48:37]   dracut.aarch64 0:033-572.el7                                                  
+[08:48:37]   dracut-network.aarch64 0:033-572.el7                                          
+[08:48:37]   e2fsprogs-libs.aarch64 0:1.42.9-19.el7                                        
+[08:48:37]   ebtables.aarch64 0:2.0.10-16.el7                                              
+[08:48:37]   ethtool.aarch64 2:4.8-10.el7                                                  
+[08:48:37]   findutils.aarch64 1:4.5.11-6.el7                                              
+[08:48:37]   fipscheck.aarch64 0:1.4.1-6.el7                                               
+[08:48:37]   fipscheck-lib.aarch64 0:1.4.1-6.el7                                           
+[08:48:37]   firewalld-filesystem.noarch 0:0.6.3-11.el7                                    
+[08:48:37]   fxload.aarch64 0:2002_04_11-16.el7                                            
+[08:48:37]   gobject-introspection.aarch64 0:1.56.1-1.el7                                  
+[08:48:37]   groff-base.aarch64 0:1.22.2-8.el7                                             
+[08:48:37]   hardlink.aarch64 1:1.0-19.el7                                                 
+[08:48:37]   hwdata.aarch64 0:0.252-9.7.el7                                                
+[08:48:37]   ipset.aarch64 0:7.1-1.el7                                                     
+[08:48:37]   ipset-libs.aarch64 0:7.1-1.el7                                                
+[08:48:37]   jansson.aarch64 0:2.10-1.el7                                                  
+[08:48:37]   kbd-legacy.noarch 0:1.15.5-15.el7                                             
+[08:48:37]   kbd-misc.noarch 0:1.15.5-15.el7                                               
+[08:48:37]   kernel-tools-libs.aarch64 0:4.18.0-193.28.1.el7                               
+[08:48:37]   kpartx.aarch64 0:0.4.9-133.el7                                                
+[08:48:37]   libdaemon.aarch64 0:0.14-7.el7                                                
+[08:48:37]   libdrm.aarch64 0:2.4.97-2.el7                                                 
+[08:48:37]   libedit.aarch64 0:3.0-12.20121213cvs.el7                                      
+[08:48:37]   libestr.aarch64 0:0.1.9-2.el7                                                 
+[08:48:37]   libfastjson.aarch64 0:0.99.4-3.el7                                            
+[08:48:37]   libmnl.aarch64 0:1.0.3-7.el7                                                  
+[08:48:37]   libndp.aarch64 0:1.2-9.el7                                                    
+[08:48:37]   libnetfilter_conntrack.aarch64 0:1.0.6-1.el7_3                                
+[08:48:37]   libnfnetlink.aarch64 0:1.0.1-4.el7                                            
+[08:48:37]   libnl3.aarch64 0:3.2.28-4.el7                                                 
+[08:48:37]   libnl3-cli.aarch64 0:3.2.28-4.el7                                             
+[08:48:37]   libpipeline.aarch64 0:1.2.3-3.el7                                             
+[08:48:37]   libselinux-python.aarch64 0:2.5-15.el7                                        
+[08:48:37]   libselinux-utils.aarch64 0:2.5-15.el7                                         
+[08:48:37]   libss.aarch64 0:1.42.9-19.el7                                                 
+[08:48:37]   libteam.aarch64 0:1.29-3.el7                                                  
+[08:48:37]   libuser.aarch64 0:0.60-9.el7                                                  
+[08:48:37]   logrotate.aarch64 0:3.8.6-19.el7                                              
+[08:48:37]   lsscsi.aarch64 0:0.27-6.el7                                                   
+[08:48:37]   lzo.aarch64 0:2.06-8.el7                                                      
+[08:48:37]   mariadb-libs.aarch64 1:5.5.68-1.el7                                           
+[08:48:37]   mozjs17.aarch64 0:17.0.0-20.el7                                               
+[08:48:37]   newt.aarch64 0:0.52.15-4.el7                                                  
+[08:48:37]   numactl-libs.aarch64 0:2.0.12-5.el7                                           
+[08:48:37]   openssh.aarch64 0:7.4p1-21.el7                                                
+[08:48:37]   pciutils-libs.aarch64 0:3.5.1-3.el7                                           
+[08:48:37]   plymouth-core-libs.aarch64 0:0.8.9-0.34.20140113.el7.centos                   
+[08:48:37]   plymouth-scripts.aarch64 0:0.8.9-0.34.20140113.el7.centos                     
+[08:48:37]   polkit.aarch64 0:0.112-26.el7                                                 
+[08:48:37]   polkit-pkla-compat.aarch64 0:0.1-4.el7                                        
+[08:48:37]   python-configobj.noarch 0:4.7.2-7.el7                                         
+[08:48:37]   python-decorator.noarch 0:3.4.0-3.el7                                         
+[08:48:37]   python-firewall.noarch 0:0.6.3-11.el7                                         
+[08:48:37]   python-gobject-base.aarch64 0:3.22.0-1.el7_4.1                                
+[08:48:37]   python-linux-procfs.noarch 0:0.4.11-4.el7                                     
+[08:48:37]   python-perf.aarch64 0:4.18.0-193.28.1.el7                                     
+[08:48:37]   python-pyudev.noarch 0:0.15-9.el7                                             
+[08:48:37]   python-schedutils.aarch64 0:0.4-6.el7                                         
+[08:48:37]   python-slip.noarch 0:0.4.0-4.el7                                              
+[08:48:37]   python-slip-dbus.noarch 0:0.4.0-4.el7                                         
+[08:48:37]   selinux-policy.noarch 0:3.13.1-268.el7                                        
+[08:48:37]   slang.aarch64 0:2.2.4-11.el7                                                  
+[08:48:37]   snappy.aarch64 0:1.1.0-3.el7                                                  
+[08:48:37]   systemd-sysv.aarch64 0:219-78.el7                                             
+[08:48:37]   sysvinit-tools.aarch64 0:2.88-14.dsf.el7                                      
+[08:48:37]   tcp_wrappers-libs.aarch64 0:7.6-77.el7                                        
+[08:48:37]   teamd.aarch64 0:1.29-3.el7                                                    
+[08:48:37]   virt-what.aarch64 0:1.18-4.el7                                                
+[08:48:37]   wpa_supplicant.aarch64 1:2.6-12.el7                                           
+[08:48:37]   xz.aarch64 0:5.2.2-1.el7                                                      
+[08:48:37] 
+[08:48:37] Complete!
+[08:48:38] Loaded plugins: fastestmirror
+[08:48:38] Cleaning repos: base centos-7-aarch64 extras updates
+[08:48:38] Other repos take up 30 M of disk space (use --verbose for details)
+[08:48:39] :: Configuring core/motd ... 
+[08:48:39] :: Configuring core/hosts ... 
+[08:48:39] :: Configuring core/hostname ... 
+[08:48:39] :: Configuring core/mnt ... 
+[08:48:39] :: Configuring core/net ... 
+[08:48:39] :: Configuring core/timezone ... 
+[08:48:39] :: Configuring core/su ... 
+[08:48:39] :: Configuring core/locale ... 
+[08:48:50] :: Configuring core/aid ... 
+[08:48:52] :: Configuring core/profile ... 
+[08:48:53] :: Configuring core/sudo ... 
+[08:48:53] :: Configuring core/unchroot ... 
+[08:48:53] :: Installing extra/ssh ... 
+[08:48:54] 已加载插件：fastestmirror
+[08:48:54] Determining fastest mirrors
+[08:48:58]  * base: mirrors.bfsu.edu.cn
+[08:48:58]  * extras: mirrors.bfsu.edu.cn
+[08:48:58]  * updates: mirrors.bfsu.edu.cn
+[08:49:09] 正在解决依赖关系
+[08:49:09] --> 正在检查事务
+[08:49:09] ---> 软件包 openssh-server.aarch64.0.7.4p1-21.el7 将被 安装
+[08:49:10] --> 解决依赖关系完成
+[08:49:10] 
+[08:49:10] 依赖关系解决
+[08:49:10] 
+[08:49:10] ================================================================================
+[08:49:10]  Package                架构            版本                 源            大小
+[08:49:10] ================================================================================
+[08:49:10] 正在安装:
+[08:49:10]  openssh-server         aarch64         7.4p1-21.el7         base         443 k
+[08:49:10] 
+[08:49:10] 事务概要
+[08:49:10] ================================================================================
+[08:49:10] 安装  1 软件包
+[08:49:10] 总下载量：443 k
+[08:49:10] 安装大小：1.0 M
+[08:49:10] Downloading packages:
+[08:49:11] Running transaction check
+[08:49:11] Running transaction test
+[08:49:11] Transaction test succeeded
+[08:49:11] Running transaction
+[08:49:12]   正在安装    : openssh-server-7.4p1-21.el7.aarch64                         1/1 
+[08:49:12]   验证中      : openssh-server-7.4p1-21.el7.aarch64                         1/1 
+[08:49:12] 
+[08:49:12] 已安装:
+[08:49:12]   openssh-server.aarch64 0:7.4p1-21.el7                                         
+[08:49:12] 完毕！
+[08:49:13] 已加载插件：fastestmirror
+[08:49:13] 正在清理软件源： base centos-7-aarch64 extras updates
+[08:49:13] Cleaning up list of fastest mirrors
+[08:49:13] Other repos take up 30 M of disk space (use --verbose for details)
+[08:49:14] :: Configuring extra/ssh ... 
+[08:49:14] <<< deploy
+[08:58:46] >>> stop
+[08:58:46] :: Stopping extra/ssh ... done
+[08:58:46] Release resources ... done
+[08:58:46] Unmounting partitions: 
+[08:58:46] /sys ... done
+[08:58:46] /proc ... done
+[08:58:46] /dev/shm ... done
+[08:58:46] /dev/pts ... done
+[08:58:46] /dev ... done
+[08:58:47] / ... done
+[08:58:47] <<< stop
+[08:58:55] >>> start
+[08:58:57] Checking file system ... done
+[08:58:57] Mounting the container: 
+[08:58:57] / ... done
+[08:58:57] /proc ... done
+[08:58:57] /sys ... done
+[08:58:57] /dev ... done
+[08:58:57] /dev/shm ... done
+[08:58:57] /dev/pts ... done
+[08:58:57] :: Configuring core/mnt ... 
+[08:58:57] :: Configuring core/net ... 
+[08:58:59] :: Starting extra/ssh ... done
+[08:58:59] <<< start
