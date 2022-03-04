@@ -2,7 +2,7 @@ name: 'leancloud-waker'
 on:
     schedule:
         # min, hour, day, month, week
-        - cron: '15 8 * * *'
+        - cron: '15 10 * * *'
 jobs:
     leancloud:
         runs-on: ubuntu-latest
