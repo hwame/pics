@@ -2,7 +2,7 @@ name: 'leancloud-waker'
 on:
     schedule:
         # min, hour, day, month, week
-        - cron: '15 10 * * *'
+        - cron: '0 13 * * *'
 jobs:
     leancloud:
         runs-on: ubuntu-latest
@@ -10,4 +10,4 @@ jobs:
             - name: 'WakeUpLeanCloud'
               env:
                     ADMIN_URL: ${{ secrets.SITE }}
-              run: curl $ADMIN_URL -k
+              run: date && curl --head -k $ADMIN_URL
